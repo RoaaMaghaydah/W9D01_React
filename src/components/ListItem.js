@@ -1,12 +1,12 @@
 import React from 'react';
 
-const List = ({todosName}) => {
+const ListItem = (props) => {
     return (
         <>
             <ul>
-                <li>1</li>
+                <li></li>
             </ul>
         </>
     );
 };
-export default List;
+export default ListItem;
