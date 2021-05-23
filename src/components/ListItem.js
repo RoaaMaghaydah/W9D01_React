@@ -1,10 +1,16 @@
 import React from 'react';
 
-const ListItem = (props) => {
+const ListItem = ({ todo, id }) => {
+    const logID = () => {
+        console.log({ id });
+    };
     return (
         <>
             <ul>
-                <li></li>
+                
+                <button onClick={logID}>click me</button>
+                <li>{todo}</li>
+
             </ul>
         </>
     );
